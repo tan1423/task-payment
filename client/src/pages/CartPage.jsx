@@ -40,7 +40,7 @@ const Cart = () => {
       const stripe = await loadStripe(
         //This is the publishable key of our stripe payment api...
         // I have create this account only for this project that the reaon why i am providing the secret key..
-        "pk_test_51PNVMB00Cl7fHLHIy0UaFYfoVZy8CeNjXUZXOOiF3Rl166HL4pww3tvmgk2HihryiLSoZMzj6hR0YUaKjy6dg3M100sc8mqhB6"
+        "pk_test_51RM0OIP5Mr9vnHkxmQW0cRmnbZz1vsto7FxJydHDSlmlcaztjgmGir1LNYeKJ0q1Z8vCW7NNvJ7zjj7eYAYhvXrF00RSOhDclR"
       );
       const body = {
         products: cartData,
